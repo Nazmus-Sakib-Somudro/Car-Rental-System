@@ -1,4 +1,5 @@
 # Car-Rental-System
+Car Rental System
 A desktop application built using Java Swing and MySQL (via XAMPP), designed to manage car rental operations for administrators and customers.
 
 Features
@@ -40,6 +41,52 @@ ViewCustomers.java: Display list of all customers
 DBConnection.java: Handles MySQL connection using JDBC
 
 Diagrams
+✅ Class Diagram
+Represents relationships between all Java classes, including model classes and interface logic.
+(Imported into Draw.io using provided XML or PNG)
+
+✅ Use Case Diagram
+Visualizes user interaction (Customer and Admin) with the system's functionalities.
+
+✅ Activity Diagram
+Illustrates the process of booking a car and making a payment.
+
+Usage Guide
+Add Car (Admin):
+
+Open Admin Panel → Click Add Car
+
+Enter car details (model, number, type, price, availability)
+
+Click "Add Car"
+
+Add Customer (Admin):
+
+Open Admin Panel → Click Add Customer
+
+Enter customer name and email
+
+Click "Save"
+
+Book a Car (Customer):
+
+Click Book Car → Choose available car and enter booking details
+
+Confirm to save booking
+
+Make Payment:
+
+Click Payment → Enter customer name and payment amount
+
+Click "Pay"
+
+View Cars / Customers / History:
+
+Navigate using respective buttons from the main frame
+
+Data is retrieved dynamically from the MySQL database
+
+
 
 ![Screenshot 2025-04-23 235654](https://github.com/user-attachments/assets/99f8720b-5d6e-42a9-ac5a-1c6a9211c72d)
 ![Screenshot 2025-04-23 235728](https://github.com/user-attachments/assets/bb933b63-251c-4803-ba0d-3bd8e26d66a6)
