@@ -2,7 +2,7 @@
 Car Rental System
 A desktop application built using Java Swing and MySQL (via XAMPP), designed to manage car rental operations for administrators and customers.
 
-Features
+# Features
 Add, view, and manage cars (admin)
 
 Add and view customers
@@ -17,7 +17,7 @@ View booking history
 
 Admin panel for system control
 
-Project Structure
+# Project Structure
 src/com/carrental/
 
 MainFrame.java: Main navigation window with access to all features
@@ -40,18 +40,24 @@ ViewCustomers.java: Display list of all customers
 
 DBConnection.java: Handles MySQL connection using JDBC
 
-Diagrams
-✅ Class Diagram
-Represents relationships between all Java classes, including model classes and interface logic.
-(Imported into Draw.io using provided XML or PNG)
+# Diagrams
+ Use Case Diagram
+ Visualizes user interaction (Customer and Admin) with the system's functionalities.
+ 
+![Screenshot 2025-04-23 235654](https://github.com/user-attachments/assets/99f8720b-5d6e-42a9-ac5a-1c6a9211c72d)
 
-✅ Use Case Diagram
-Visualizes user interaction (Customer and Admin) with the system's functionalities.
-
-✅ Activity Diagram
+Activity Diagram
 Illustrates the process of booking a car and making a payment.
 
-Usage Guide
+![Screenshot 2025-04-23 235728](https://github.com/user-attachments/assets/bb933b63-251c-4803-ba0d-3bd8e26d66a6)
+
+Class Diagram
+Represents relationships between all Java classes, including model classes and interface logic.
+
+![Screenshot 2025-04-23 235926](https://github.com/user-attachments/assets/5911a2ba-4ee7-476a-9567-9beaa1cd3a6a)
+
+
+# Usage Guide
 Add Car (Admin):
 
 Open Admin Panel → Click Add Car
@@ -87,7 +93,3 @@ Navigate using respective buttons from the main frame
 Data is retrieved dynamically from the MySQL database
 
 
-
-![Screenshot 2025-04-23 235654](https://github.com/user-attachments/assets/99f8720b-5d6e-42a9-ac5a-1c6a9211c72d)
-![Screenshot 2025-04-23 235728](https://github.com/user-attachments/assets/bb933b63-251c-4803-ba0d-3bd8e26d66a6)
-![Screenshot 2025-04-23 235926](https://github.com/user-attachments/assets/5911a2ba-4ee7-476a-9567-9beaa1cd3a6a)
